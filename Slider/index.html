@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Slider</title>
+</head>
+<body>
+        <div class="slidercontainer">
+            <div class="showSlide fade">
+                <img src="img1.jpg" />
+            </div>
+            <div class="showSlide fade">
+                <img src="img2.jpg" />
+            </div>
+
+            <div class="showSlide fade">
+                <img src="img3.jpg" />
+            </div>
+            <div class="showSlide fade">
+                <img src="img4.jpg" />
+            </div>
+            <a class="left" onclick="nextSlide(-1)"><h2><</h2></a>
+            <a class="right" onclick="nextSlide(1)"><h2>></h2></a>
+        </div>
+
+        <script src="script.js"></script>
+</html>
